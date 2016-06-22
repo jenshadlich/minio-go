@@ -18,9 +18,9 @@ package minio
 
 /// Multipart upload defaults.
 
-// miniPartSize - minimum part size 5MiB per object after which
+// miniPartSize - minimum part size 50MiB per object after which
 // putObject behaves internally as multipart.
-const minPartSize = 1024 * 1024 * 5
+const minPartSize = 1024 * 1024 * 50
 
 // maxPartsCount - maximum number of parts for a single multipart session.
 const maxPartsCount = 10000
